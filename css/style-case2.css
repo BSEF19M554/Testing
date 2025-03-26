@@ -1,0 +1,28 @@
+#header img{
+    width: 85%;
+}
+
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu li a{
+    color: #000;
+    padding: 15px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+#menu li a:hover{
+    background-color: var(--bs-secondary-bg-subtle);
+}
+
+.section{
+    padding: 20px 0;
+}
