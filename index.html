@@ -1,61 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>Homepage</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="css/style-home.css">
-	</head>
-	
-	<body>
-		<header>
-		<a href="index.html" class="header-brand">589amf</a>
-		<nav>
-			<ul>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="about.html">About Me</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
-			<div class="header-cases">
-				<a href="cases.html">Cases</a>
-			</div>
-		</header>
-		<main>
-			<section class="home-banner">
-				<div class="vertical-center">
-					<h2>I AM A FREELANCE WEB<br>DEVELOPER</h2>
-					<h1>With specialty in front-end development, stylesheets and overall look of website.</h1>
-				</div>
-			</section>
-			<section>
-			<div class="wrapper">
-				<a href="cases.html">
-					<div class="home-boxlink">
-						<h3>Cases</h3>
-					</div>
-				</a>
-				<a href="portfolio.html">
-					<div class="home-boxlink">
-						<h3>Portfolio</h3>
-					</div>
-				</a>
-				<a href="about.html">
-					<div class="home-boxlink">
-						<h3>About</h3>
-					</div>
-				</a>
-				<a href="contact.html">
-					<div class="home-boxlink">
-						<h3>Contact</h3>
-					</div>
-				</a>
-			</div>
-			</section>
-		</main>
-		<footer>
-			<h4>&copy; 2020 589AMF Inc. All rights reserved.</h4>
-		</footer>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css"/> -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style-index.css">
+</head>
+
+<body data-bs-theme="light">
+    <div id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h1 id="logo">Ahmed Mubarak Faisal</h1>
+                </div>
+                <div class="col-md-8">
+                    <ul id="menu" class="float-md-end">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="col-md-1">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" role="switch" onclick="myFunction()"/>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <div id="banner" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-lg-6">
+                    <div class="banner-title">
+                        <h1 class="title">Software Engineer</h1>
+                        <p class="lead">I am a PUCIT graduate with expertise in Python, C++ and C#. Currently, I'm working on Angular and C# Stack.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container section">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="sectionHead">My Expertise</h2>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="serviceBox">
+                    <h3>Python</h3>
+                    <p>My final year project is based on Stepper Motor control for computed tomography and image reconstruction for RAW files is done in Python. The stepper motor control code is done in LABVIEW.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="serviceBox">
+                    <h3>C#</h3>
+                    <p>I have built library management system in windows forms using C# along with full backend implementation while using MySQL database. It includes customer and employee membership to its fullest.</p>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="serviceBox">
+                    <h3>C++</h3>
+                    <p>I have studied complete Programming Fundaments, OOP and Data Structures in C++ while also working with data science. I have trained AI models using regression and tree classifier algorithms.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="testimonials" class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="sectionHead">Testimonials</h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus itaque voluptatem saepe rerum possimus iste asperiores voluptas amet cumque autem?</p>
+                        <img src="images/pic1.jpg" alt="pic1">
+                        <div class="author">Bill Gates</div>
+                        <div class="author-company">Microsoft</div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus itaque voluptatem saepe rerum possimus iste asperiores voluptas amet cumque autem?</p>
+                        <img src="images/pic2.jpg" alt="pic2">
+                        <div class="author">Steve Jobs</div>
+                        <div class="author-company">Apple</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="news" class="container section">
+        <div class="row">
+            <div class="col-md-12 newsSection">
+                <h2 class="sectionHead">My Projects</h2>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="newsPost">
+                    <img src="images/news1.jpg" alt="">
+                    <h3><a href="old.html">My first site</a></h3>
+                    <div class="postDate">December 1, 2020</div>
+                    <p>This website is built on HTML and CSS without using any frameworks or libraries.</p>
+                    <a href="" class="readMore">Read More</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="newsPost">
+                    <img src="images/news2.jpg" alt="">
+                    <h3><a href="cases.html">Cases Page</a></h3>
+                    <div class="postDate">December 1, 2020</div>
+                    <p>This page is used for accessing more links across my site.</p>
+                    <a href="" class="readMore">Read More</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="newsPost">
+                    <img src="images/news3.jpg" alt="">
+                    <h3><a href="case1.html">Information Page</a></h3>
+                    <div class="postDate">December 1, 2020</div>
+                    <p>Old page when I first learned how to make a webpage.</p>
+                    <a href="" class="readMore">Read More</a>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <div class="newsPost">
+                    <img src="images/news4.jpg" alt="">
+                    <h3><a href="case2.html">Information Page redone</a></h3>
+                    <div class="postDate">April 30, 2025</div>
+                    <p>Wrote the same information page in bootstrap.</p>
+                    <a href="" class="readMore">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footerSidebar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="footerWidget">
+                        <h4>About Me</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut illum, doloribus mollitia nostrum voluptate ipsam!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, autem.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="footerWidget">
+                        <h4>Latest News</h4>
+                        <ul>
+                            <li><a href="">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="">Lorem ipsum dolor sit amet.</a></li>
+                            <li><a href="">Lorem ipsum dolor sit amet.</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="footerWidget">
+                        <h4>Company Address</h4>
+                        <address>
+                            <b>Ahmed Mubarak Faisal</b><br>
+                            589C Faisal town, Lahore <br>
+                            Punjab, Pakistan <br>
+                            P: 0333-4694454
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    Copyright@2025 Ahmed Mubarak
+                </div>
+
+                <div class="col-md-6">
+                    <ul id="socialIcons" class="float-md-end">
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg></a></li>
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></a></li>
+                        <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          var element = document.body;
+          element.dataset.bsTheme =
+            element.dataset.bsTheme == "light" ? "dark" : "light";
+        }
+    </script>
+</body>
 </html>
