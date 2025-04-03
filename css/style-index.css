@@ -106,9 +106,7 @@
 }
 
 .testimonial img{
-    border-radius: 50%;
-    height: 32px;
-    width: 32px;
+    width: 80%;
 }
 
 #news a{
