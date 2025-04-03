@@ -83,12 +83,18 @@
     margin: 20px auto;
 }
 
+/*Testimonials*/
 #testimonials{
-    background: url('../images/testimonialBG.jpg') no-repeat 0 0;
+    background-color: #3498db;
+    background-image: linear-gradient(to bottom right, #3498db, #7f8c8d);
     background-size: cover;
     padding: 50px 0;
     position: relative;
     color: white;
+    
+    h2{
+        color: white;
+    }
 }
 
 #testimonials::before{
