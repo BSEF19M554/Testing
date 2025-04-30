@@ -1,0 +1,227 @@
+#header .container-fluid .row{
+    height: 60px;
+}
+
+#banner{
+    background: url(https://assets.bitso.com/static/media/Bitso_Login_Illustration.e1c7b7ad60ec94cbafa0.png);
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}
+
+#myForm{
+    background-color: white;
+    margin-top: 24px;
+    width: 560px;
+}
+
+#myForm h2{
+    padding-top: 33px;
+    font-size: 2rem;
+}
+
+.input1, .input2{
+    padding-top: 30px;
+    width: 430px;
+}
+
+#myForm .link1{
+    padding-top: 30px;
+    padding-left: 55px;
+    color: green;
+}
+
+#myCaptcha{
+    border: 1px solid #d3d3d3;
+    background-color: #f9f9f9;
+    width: 300px;
+    height: 74px;
+    margin-top: 30px;
+    padding: 0 auto;
+}
+
+#myCaptcha input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    border: 2px solid #b2b2b2;
+    border-radius: 2px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#myCaptcha #mySpinner{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+#myCaptcha label{
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+#myCaptcha img{
+    height: 63px;
+    margin-left: 65px;
+}
+
+#myForm .btnDiv{
+    width: 430px;
+}
+
+#myForm button{
+    width: 430px;
+    height: 48px;
+    font-weight: 700;
+    margin-top: 30px;
+    background: rgb(41, 172, 0);
+    border: 1px solid rgb(41, 172, 0);
+}
+
+#myForm .link2{
+    padding-top: 30px;
+    color: green;
+    margin-bottom: 70px;
+}
+
+#businessLogIn{
+    background-color: white;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 560px;
+}
+
+#businessLogIn .link3{
+    margin-top: 15px;
+}
+
+#businessLogIn .link4{
+    margin-bottom: 15px;
+    color: green;
+}
+
+#securityCode, #expiredSession{
+    background-color: white;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    width: 500px;
+}
+
+#expiredSession{
+    width: 300px;
+}
+
+#expiredSession h6{
+    font-weight: 700;
+}
+
+#securityCode h6{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+#securityCode a{
+    font-weight: 600;
+}
+
+#securityCode #myInputBox{
+    height: 37px;
+    margin-left: 145px;
+}
+
+#securityCode #myCodeBtn{
+    margin-left: 200px;
+}
+
+#securityCode p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#securityCode input{
+    margin-left: 10px;
+}
+
+#securityCode .resend{
+    margin-top: 30px;
+}
+
+#securityCode .help{
+    margin-top: 50px;
+}
+
+#securityCode .link3,.link4{
+    color: green;
+}
+
+#securityCode .link4{
+    margin-bottom: 20px;
+}
+
+#expiredSession h6{
+    margin-top: 20px;
+}
+
+#expiredSession svg{
+    margin-top: 20px;
+    margin-left: 120px; 
+}
+
+#expiredSession svg{
+    transform: rotate(30deg);
+}
+
+#footer .footerLogo{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#footer a{
+    margin-left: 10px;
+}
+
+#footer img{
+    height: 41px;
+}
+
+#timer{
+    display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+    #myForm, #businessLogIn, #securityCode, #expiredSession{
+        width: 360px;
+    }
+
+    #myForm h2{
+        font-size: 1.25rem;
+    }
+
+    #inputID1, #inputID2{
+        width: 312px;
+        margin-left: 10px;
+    }
+
+    #myForm #startBtn{
+        width: 335px;
+    }
+
+    #expiredSession{
+        width: 250px;
+    }
+
+    #securityCode #myInputBox{
+        margin-left: 75px;
+    }
+
+    #securityCode #myCodeBtn{
+        margin-left: 130px;
+    }
+
+    #expiredSession svg{
+        margin-left: 95px;
+    }
+}
